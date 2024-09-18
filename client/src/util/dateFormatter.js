@@ -1,6 +1,6 @@
 const dateFormatter = (givenDate) => {
   const date = new Date(givenDate);
-
+ // data conversion below
   return date.toLocaleString("en-gb", {
     day: "numeric",
     month: "numeric",

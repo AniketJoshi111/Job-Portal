@@ -22,13 +22,13 @@ const ManageUserItem = (props) => {
     props.onDelete(props.userInfo._id);
   };
   return (
-    <tr className={classes.row}>
+    <tr className="text-center">
       <td>{props.userInfo.name}</td>
       <td>{props.userInfo.email}</td>
       <td>{props.userInfo.mobile}</td>
       <td>{props.userInfo.role}</td>
       <td>{dateFormatter(props.userInfo.createdAt)}</td>
-      <td className={classes.actions}>
+      <td className="min-w-[120px] flex justify-center items-center">
         <button
           className={`${classes.edit} ${classes.button}`}
           onClick={editButtonHandler}

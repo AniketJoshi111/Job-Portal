@@ -4,6 +4,8 @@ import ManageShortlisted from "../../Job Provider/Components/Applicants/ManageSh
 
 import Config from "../../config/Config.json";
 
+
+// shortlisted candidates
 export default function ApplicantsPage() {
   useEffect(() => {
     document.title = Config.TITLE.MANAGE_APPLICANTS;

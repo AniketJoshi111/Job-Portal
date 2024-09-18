@@ -9,8 +9,8 @@ const calculateRange = (data, rowsPerPage) => {
   return range;
 };
 
-const sliceData = (data, page, rowsPerPage) => {
-  return data.slice((page - 1) * rowsPerPage, page * rowsPerPage);
+const sliceData = (data, page, rowsPerpage) => {
+  return data.slice((page - 1) * rowsPerpage, page * rowsPerpage);
 };
 const useTable = (data, page, rowsPerPage) => {
   const [tableRange, setTableRange] = useState([]);

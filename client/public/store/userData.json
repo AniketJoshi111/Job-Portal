@@ -1,18 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Praveen",
-    "email": "praveen@test.com",
-    "password": "qwertyuio",
-    "age": "22",
-    "mobile": "0123456789",
-    "dateCreated": "17/10/2017, 12:51:06 am",
-    "gender": "Male",
-    "qualification": "Post Graduate",
-    "experience": "0-2",
-    "role": "User"
-  },
-  {
     "id": 2,
     "name": "Nivetha",
     "email": "nivetha@test.com",

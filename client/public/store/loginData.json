@@ -1,32 +1,11 @@
 {
   "users": [
     {
-      "email": "admin@gmail.com",
-      "username": "Admin",
-      "password": "Admin@630",
-      "id": 1,
-      "role": "ADMIN"
-    },
-    {
-      "email": "hari@gmail.com",
-      "username": "hari",
-      "password": "hari36",
-      "id": 1,
-      "role": "USER"
-    },
-    {
       "email": "charan@gmail.com",
       "username": "charan",
       "password": "charan12",
       "id": 1,
       "role": "JOBSEEKER"
-    },
-    {
-      "email": "nivetha@gmail.com",
-      "username": "nivetha",
-      "password": "nivetha34",
-      "id": 1,
-      "role": "JOBPROVIDER"
     },
     {
       "email": "harikiran@gmail.com",

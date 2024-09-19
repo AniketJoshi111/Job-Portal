@@ -1,14 +1,5 @@
 [
   {
-    "jobId": 1,
-    "title": "Web developer",
-    "description": " HTML5, CSS3, and responsive design",
-    "category": "Software Development",
-    "startDate": "2018-12-31",
-    "endDate": "2019-04-03",
-    "providerId": "20123"
-  },
-  {
     "jobId": 2,
     "title": "HR Manger",
     "description": " Manage and Train new gen employees",

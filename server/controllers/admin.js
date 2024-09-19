@@ -43,10 +43,10 @@ exports.getRecent = (req, res, next) => {
   User.find({ _id: { $ne: req.userId } })
     .lean()
     .sort({ createdAt: -1 })
-    .limit(3)
+    .limit(4)
     .then((users) => {
       recentUsers = users;
-      return Job.find().lean().sort({ createdAt: -1 }).limit(3);
+      return Job.find().lean().sort({ createdAt: -1 }).limit(4);
     })
     .then((jobs) => {
       recentJobs = jobs;

@@ -9,7 +9,7 @@ import SpinnerComponent from "./components/UI/SpinnerComponent";
 // import ManageUsersPage from "./pages/AdminPages/ManageUsersPage";
 // import ManageJobsPage from "./pages/AdminPages/ManageJobsPage";
 // import ReportsPage from "./pages/AdminPages/ReportsPage";
-// import ChangePassword from "./components/UI/ChangePassword";
+/* import ChangePassword from "./components/UI/ChangePassword";*/
 
 const AdminDashboardPage = React.lazy(() =>
   import("./pages/AdminPages/AdminDashboardPage")

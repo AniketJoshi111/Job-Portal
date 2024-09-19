@@ -1,16 +1,5 @@
 [
   {
-    "userId": 2342,
-    "jobId": "1",
-    "name": "Praveen",
-    "title": "Web developer",
-    "description": " HTML5, CSS3, and responsive design",
-    "category": "Software Development",
-    "startDate": "2018-12-31",
-    "endDate": "2019-04-03",
-    "providerId": "20123"
-  },
-  {
     "userId": 2789,
     "name": "Nivetha",
     "jobId": "4",

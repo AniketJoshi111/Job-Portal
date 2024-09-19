@@ -4,6 +4,8 @@ import ApplicantTab from "../../Job Provider/Components/Applicants/ApplicantTab"
 
 import Config from "../../config/Config.json";
 
+
+// page for applying
 export default function ApplicantsPage() {
   useEffect(() => {
     document.title = Config.TITLE.MANAGE_APPLICANTS;
